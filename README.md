@@ -10,7 +10,7 @@ A lot of the macro logic is based on work of other people, mostly found in the [
 Interaction with `generate_*` scripts in the root folder should be enough to create macros which can then be copy & pasted into Roll20 ability text boxes.
 
 ### Character Spell List
-Based on the work of [Ed S.](https://app.roll20.net/users/772714), described in [this forum post](https://app.roll20.net/forum/permalink/5629364/).
+Based on the work of [Ed S.](https://app.roll20.net/users/772714), described in [this forum post](https://app.roll20.net/forum/permalink/5629364/). Read through their post to understand the basic setup if you intend to use the scripts below.
 
 #### Character Spells Ability
 Navigate to the root folder and execute `./generate_character-spells-ability.sh` in your shell of choice.  
@@ -18,6 +18,4 @@ Navigate to the root folder and execute `./generate_character-spells-ability.sh`
 
 #### Spellcard Slots
 Navigate to the root folder and execute `./generate_spellcard-slots.sh` in your shell of choice.  
-**Params:** You can add _spell level [cantrip, 1-9]_ and _slot number [0-99]_ as arguments to the command for direct macro generation.  
-`./generate_spellcard-slots.sh cantrip 2` prints the spellcard macro for the cantrip spellcard, ability slot $2.  
-If you don't provide any arguments, you'll get prompted.
+**Params:** Option to add _spell level [cantrip, 1-9]_ and _slot number [0-99]_ as arguments to the command for direct macro generation. `./generate_spellcard-slots.sh cantrip 2` prints the spellcard macro for the cantrip spellcard (which would be spellcard0), ability slot $2.
