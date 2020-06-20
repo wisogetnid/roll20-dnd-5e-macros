@@ -1,4 +1,3 @@
-changed Spells (only Query mode, no direct action)
 /w "@{selected|character_name}" &{template:atk} [[ {{desc=***@{selected|character_name} Spells***
 ___________________________
 
