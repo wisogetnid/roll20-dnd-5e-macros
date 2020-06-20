@@ -1,0 +1,42 @@
+from: https://app.roll20.net/forum/post/5624988/return-spell-description-vs-spell-roll-in-chat-window
+
+original Character=individuals Ability="Spells"
+/w "@{selected|character_name}" &{template:atk} [[ {{desc=***@{selected|character_name} Spells***
+___________________________
+
+**Cantrips**
+[@{Selected|repeating_spell-cantrip_$0_spellname}](~Selected|repeating_spell-cantrip_$0_spell) [?](~spellcard0|$0) | [@{Selected|repeating_spell-cantrip_$1_spellname}](~Selected|repeating_spell-cantrip_$1_spell) [?](~spellcard0|$1) | [@{Selected|repeating_spell-cantrip_$2_spellname}](~Selected|repeating_spell-cantrip_$2_spell) [?](~spellcard0|$2) |
+[@{Selected|repeating_spell-cantrip_$3_spellname}](~Selected|repeating_spell-cantrip_$3_spell) [?](~spellcard0|$3)
+
+** 1st Level ([[@{selected|lvl1_slots_total}-@{selected|lvl1_slots_expended}]]/@{selected|lvl1_slots_total}) spell slots**
+[@{Selected|repeating_spell-1_$0_spellname}](~Selected|repeating_spell-1_$0_spell) [?](~spellcard1|$0) | [@{Selected|repeating_spell-1_$1_spellname}](~Selected|repeating_spell-1_$1_spell) [?](~spellcard1|$1) | [@{Selected|repeating_spell-1_$2_spellname}](~Selected|repeating_spell-1_$2_spell) [?](~spellcard1|$2) |
+[@{Selected|repeating_spell-1_$3_spellname}](~Selected|repeating_spell-1_$3_spell) [?](~spellcard1|$3)}}
+
+
+
+original Character="spellcard1" Ability="$1"
+/w "@{selected|character_name}" &{template:spell} {{level=@{selected|repeating_spell-1_$1_spellschool} @{selected|repeating_spell-1_$1_spelllevel}}} {{name=@{selected|repeating_spell-1_$1_spellname} [Query]}} {{castingtime=@{selected|repeating_spell-1_$1_spellcastingtime}}} {{range=@{selected|repeating_spell-1_$1_spellrange}}} {{target=@{selected|repeating_spell-1_$1_spelltarget}}} @{selected|repeating_spell-1_$1_spellcomp_v} @{selected|repeating_spell-1_$1_spellcomp_s} {@{selected|repeating_spell-1_$1_spellcomp_m}} {{material=@{selected|repeating_spell-1_$1_spellcomp_materials}}} {{duration=@{selected|repeating_spell-1_$1_spellduration}}} {{description=@{selected|repeating_spell-1_$1_spelldescription}}} {{athigherlevels=@{selected|repeating_spell-cantrip_$1_spellathigherlevels}}} @{selected|repeating_spell-cantrip_$1_spellritual} @{selected|repeating_spell-cantrip_$1_spellconcentration} {{charname=charname}}
+
+
+[Cast](~Selected|repeating_spell-1_$1_spell) [Spell List](~selected|Spells)}} {{athigherlevels=@{selected|repeating_spell-1_$1_spellathigherlevels}}} @{selected|repeating_spell-1_$1_spellritual} @{selected|repeating_spell-1_$1_spellconcentration} {{charname=charname}}
+
+
+changed Spells (only Query mode, no direct action)
+/w "@{selected|character_name}" &{template:atk} [[ {{desc=***@{selected|character_name} Spells***
+___________________________
+
+**Cantrips**
+[@{Selected|repeating_spell-cantrip_$0_spellname}](~spellcard0|$0) | [@{Selected|repeating_spell-cantrip_$1_spellname}](~spellcard0|$1) | [@{Selected|repeating_spell-cantrip_$2_spellname}](~spellcard0|$2) |
+[@{Selected|repeating_spell-cantrip_$3_spellname}](~spellcard0|$3)
+
+** 1st Level ([[@{selected|lvl1_slots_total}-@{selected|lvl1_slots_expended}]]/@{selected|lvl1_slots_total}) spell slots**
+[@{Selected|repeating_spell-1_$0_spellname}](~spellcard1|$0) | [@{Selected|repeating_spell-1_$1_spellname}](~spellcard1|$1) | [@{Selected|repeating_spell-1_$2_spellname}](~spellcard1|$2) |
+[@{Selected|repeating_spell-1_$3_spellname}](~spellcard1|$3) |
+[@{Selected|repeating_spell-1_$4_spellname}](~spellcard1|$4) |
+[@{Selected|repeating_spell-1_$5_spellname}](~spellcard1|$5) |
+[@{Selected|repeating_spell-1_$6_spellname}](~spellcard1|$6) |
+[@{Selected|repeating_spell-1_$7_spellname}](~spellcard1|$7)}}
+
+changed spellcard (moved ritual and concentration, removed Query word):
+/w "@{selected|character_name}" &{template:spell} {{level=@{selected|repeating_spell-1_$0_spellschool} @{selected|repeating_spell-1_$0_spelllevel}}} {{name=@{selected|repeating_spell-1_$0_spellname}}} {{castingtime=@{selected|repeating_spell-1_$0_spellcastingtime}}} {{range=@{selected|repeating_spell-1_$0_spellrange}}} {{target=@{selected|repeating_spell-1_$0_spelltarget}}} @{selected|repeating_spell-1_$0_spellritual} @{selected|repeating_spell-1_$0_spellconcentration} @{selected|repeating_spell-1_$0_spellcomp_v} @{selected|repeating_spell-1_$0_spellcomp_s} {@{selected|repeating_spell-1_$0_spellcomp_m}} {{material=@{selected|repeating_spell-1_$0_spellcomp_materials}}} {{duration=@{selected|repeating_spell-1_$0_spellduration}}} {{description=@{selected|repeating_spell-1_$0_spelldescription} 
+[Cast](~Selected|repeating_spell-1_$0_spell) [Spell List](~selected|Spells)}} {{athigherlevels=@{selected|repeating_spell-1_$0_spellathigherlevels}}} {{charname=charname}}
