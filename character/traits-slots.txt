@@ -1,0 +1,1 @@
+/w "@{selected|character_name}" &{template:npcaction} {{name=@{selected|character_name}}} {{rname=@{selected|repeating_traits_$<<slot>>_name}}} {{description=@{selected|repeating_traits_$<<slot>>_description}}}
