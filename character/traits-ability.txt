@@ -1,12 +1,12 @@
-/w "@{selected|character_name}" &{template:atk} [[ {{desc=***@{selected|character_name} Traits and Features***
+/w "@{selected|character_name}" &{template:atk} {{desc=***@{selected|character_name} Traits and Features***
 ___________________________
 
-[@{Selected|repeating_traits_$0_name}](~charactercard0|$0)
-[@{Selected|repeating_traits_$1_name}](~charactercard0|$1)
-[@{Selected|repeating_traits_$2_name}](~charactercard0|$2)
-[@{Selected|repeating_traits_$3_name}](~charactercard0|$3)
-[@{Selected|repeating_traits_$4_name}](~charactercard0|$4)
-[@{Selected|repeating_traits_$5_name}](~charactercard0|$5)
-[@{Selected|repeating_traits_$6_name}](~charactercard0|$6)
-[@{Selected|repeating_traits_$7_name}](~charactercard0|$7)
+[@{Selected|repeating_traits_$0_name}](~charactercard0|trait0)
+[@{Selected|repeating_traits_$1_name}](~charactercard0|trait1)
+[@{Selected|repeating_traits_$2_name}](~charactercard0|trait2)
+[@{Selected|repeating_traits_$3_name}](~charactercard0|trait3)
+[@{Selected|repeating_traits_$4_name}](~charactercard0|trait4)
+[@{Selected|repeating_traits_$5_name}](~charactercard0|trait5)
+[@{Selected|repeating_traits_$6_name}](~charactercard0|trait6)
+[@{Selected|repeating_traits_$7_name}](~charactercard0|trait7)
 }}
