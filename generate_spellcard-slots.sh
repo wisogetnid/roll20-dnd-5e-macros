@@ -16,5 +16,5 @@ if [ -z "$slot" ]
 fi
 
 echo ----------- copy below ----------------
-sed "s/<<level>>/$level/g" spells/spellcard-slots.txt | sed "s/<<slot>>/$slot/g"
+cat $PATH_CHARACTER_SPELLS/spellcard-slots.txt | sed "s/<<level>>/$level/g" | sed "s/<<slot>>/$slot/g"
 echo ----------- copy above ----------------

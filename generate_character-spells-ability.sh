@@ -1,5 +1,5 @@
 #!/bin/bash
 
 echo ----------- copy below ----------------
-cat ./spells/spells-ability.txt
+cat ./$PATH_CHARACTER_SPELL_ABILITIES
 echo ----------- copy above ----------------
