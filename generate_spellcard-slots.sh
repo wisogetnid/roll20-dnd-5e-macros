@@ -1,5 +1,7 @@
 #!/bin/bash
 
+source ./paths.sh
+
 level=$1
 slot=$2
 

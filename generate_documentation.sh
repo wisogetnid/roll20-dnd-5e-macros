@@ -1,11 +1,8 @@
 #!/bin/bash
 
-# Paths
-PATH_CHARACTER_SPELLS=src/spells
-PATH_CHARACTER_SPELL_ABILITIES=$PATH_CHARACTER_SPELLS/spells-ability.txt
+source ./paths.sh
 
-export PATH_CHARACTER_SPELLS
-export PATH_CHARACTER_SPELL_ABILITIES
-
-./generate_character-spells-ability.sh
-./generate_spellcard-slots.sh
+cat $PATH_CHARACTER_SPELL_ABILITIES_EXLPANATION >> $OUTPUT_CHARACTER_SPELLS_PREFIX
+./generate_character-spells-ability.sh >> $OUTPUT_CHARACTER_SPELLS_PREFIX
+cat $PATH_CHARACTER_SPELLCARD_SLOTS_EXPLANATION >> $OUTPUT_CHARACTER_SPELLS_PREFIX
+./generate_spellcard-slots.sh 1 0 >> $OUTPUT_CHARACTER_SPELLS_PREFIX
