@@ -1,7 +1,6 @@
 #!/bin/bash
-
-source ./paths.sh
+CD=$(dirname $(realpath $0))
 
 echo ----------- copy below ----------------
-cat ./$PATH_CHARACTER_SPELL_ABILITIES
+cat $CD/spells-ability.txt
 echo ----------- copy above ----------------

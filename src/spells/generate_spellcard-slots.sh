@@ -1,7 +1,6 @@
 #!/bin/bash
 
-source ./paths.sh
-
+CD=$(dirname $(realpath $0))
 level=$1
 slot=$2
 
@@ -18,5 +17,5 @@ if [ -z "$slot" ]
 fi
 
 echo ----------- copy below ----------------
-cat $PATH_CHARACTER_SPELLS/spellcard-slots.txt | sed "s/<<level>>/$level/g" | sed "s/<<slot>>/$slot/g"
+cat $CD/spellcard-slots.txt | sed "s/<<level>>/$level/g" | sed "s/<<slot>>/$slot/g"
 echo ----------- copy above ----------------

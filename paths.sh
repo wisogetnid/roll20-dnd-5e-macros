@@ -1,5 +1,10 @@
 #!/bin/bash
 
+# Project root
+PROJECT_ROOT=$(dirname $(realpath $0))
+echo "project root: $PROJECT_ROOT"
+
+
 # Paths
 PATH_CHARACTER_SPELLS=src/spells
 PATH_CHARACTER_SPELL_ABILITIES=$PATH_CHARACTER_SPELLS/spells-ability.txt
