@@ -1,4 +1,4 @@
-name: CI
+name: doc-generation
 
 on:
   push:
@@ -21,9 +21,9 @@ jobs:
       run: ./generate_documentation.sh
       
     - name: 'zipping documentation'
-      run: zip -r documentation.zip ./documentation/
+      run: zip -r docs.zip ./documentation/
       
     - uses: actions/upload-artifact@v2
       with:
         name: generated-documentation
-        path: ./documentation.zip
+        path: ./docs.zip
