@@ -16,5 +16,5 @@ jobs:
 
     - name: generate latest documentation
       run: |
-	ls -la
-	./generate_documentation.sh
+        ls -la
+       	./generate_documentation.sh
