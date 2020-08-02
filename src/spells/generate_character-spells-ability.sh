@@ -2,6 +2,6 @@
 
 CD="$( cd "$( dirname "${BASH_SOURCE[0]}" )" >/dev/null 2>&1 && pwd )"
 
-echo ----------- copy below ----------------
+printf "\n\n\`\`\`\n"
 cat $CD/spells-ability.txt
-echo ----------- copy above ----------------
+printf "\n\`\`\`\n\n"

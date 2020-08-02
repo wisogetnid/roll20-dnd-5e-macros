@@ -17,6 +17,6 @@ if [ -z "$slot" ]
     read slot
 fi
 
-echo ----------- copy below ----------------
+printf "\n\n\`\`\`\n"
 cat $CD/spellcard-slots.txt | sed "s/<<level>>/$level/g" | sed "s/<<slot>>/$slot/g"
-echo ----------- copy above ----------------
+printf "\n\`\`\`\n\n"
