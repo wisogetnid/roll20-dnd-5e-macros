@@ -21,7 +21,7 @@ jobs:
       run: ./generate_documentation.sh
       
     - name: 'zipping documentation'
-      run: zip ./documentation/ documentation.zip
+      run: zip -r documentation.zip ./documentation/
       
     - uses: actions/upload-artifact@v2
       with:
