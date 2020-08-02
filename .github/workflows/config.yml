@@ -15,4 +15,6 @@ jobs:
     - uses: actions/checkout@v2
 
     - name: generate latest documentation
-      run: ./generate_documentation
+      run: |
+	ls -la
+	./generate_documentation.sh
