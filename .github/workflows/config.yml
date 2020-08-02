@@ -14,7 +14,8 @@ jobs:
     # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
     - uses: actions/checkout@v2
 
+    - name: change execution type of script
+      run: chmod +x ./generate_documentation.sh
+
     - name: generate latest documentation
-      run: |
-        chmod +x ./generate_documentation.sh
-       	./generate_documentation.sh
+      run: ./generate_documentation.sh
