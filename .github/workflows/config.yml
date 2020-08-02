@@ -16,5 +16,5 @@ jobs:
 
     - name: generate latest documentation
       run: |
-        ls -la
+        chmod +x ./generate_documentation.sh
        	./generate_documentation.sh
