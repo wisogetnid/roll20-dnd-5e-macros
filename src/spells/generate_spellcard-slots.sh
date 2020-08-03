@@ -3,7 +3,7 @@
 CD="$( cd "$( dirname "${BASH_SOURCE[0]}" )" >/dev/null 2>&1 && pwd )"
 
 level=$1
-slot=$2
+slot=${2:-9}
 
 if [ -z "$level" ]
   then
@@ -11,7 +11,7 @@ if [ -z "$level" ]
     read level
 fi
 
-for slot in {0..9}
+for slot in $(eval echo "{0..$slot}")
 do
  printf "**spellcard$slot**"
  printf "\n\n\`\`\`\n"

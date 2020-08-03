@@ -10,7 +10,7 @@ OUTPUT_PATH_CHARACTER_SPELLS="./$OUTPUT_FOLDER_CHARACTER/$OUTPUT_FILE_CHARACTER_
 cat $CD/spells-ability-explanation.md >> $OUTPUT_FILE_CHARACTER_SPELLS_PREFIX
 $CD/generate_character-spells-ability.sh >> $OUTPUT_FILE_CHARACTER_SPELLS_PREFIX
 cat $CD/spellcard-slots-explanation.md >> $OUTPUT_FILE_CHARACTER_SPELLS_PREFIX
-$CD/generate_9-spellcard-slots.sh 1 >> $OUTPUT_FILE_CHARACTER_SPELLS_PREFIX
+$CD/generate_spellcard-slots.sh 1 >> $OUTPUT_FILE_CHARACTER_SPELLS_PREFIX
 
 echo "move generated file to $OUTPUT_PATH_CHARACTER_SPELLS"
 mkdir -p $OUTPUT_FOLDER_CHARACTER
