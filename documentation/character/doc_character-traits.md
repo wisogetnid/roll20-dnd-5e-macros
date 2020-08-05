@@ -30,8 +30,8 @@ ___________________________
 
 ```
 
-## "spellcard" Abilities on generic Character sheet
-add abilitites to the spellcard character
+## "trait" Abilities on generic Character sheet
+add abilitites to the trait character
 
 **trait0**
 
