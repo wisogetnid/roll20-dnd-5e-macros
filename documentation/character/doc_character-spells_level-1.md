@@ -4,10 +4,13 @@ Print an interactive list of the selected characters spells in the chat.
 ## References/Tributes
 This script is heavily based on the work of [Ed S.](https://app.roll20.net/users/772714), described in [this forum post](https://app.roll20.net/forum/permalink/5629364/).
 
-## Spells Ability on playable Character
-
-### How it works
+## How it works
 ...some blurb here to explain things
+
+## "Spells" Ability on playable Character sheet
+
+### Adjustments
+You want to manually remove lines of spells to reflect the number of spells your character knows. Say your character knows 4 cantrips, remove 6 cantrip lines starting from the bottom up - from the line ending on `(~spellcard0|$9)` to and including the line ending on `(~spellcard0|$4)`.
 
 ### Macro
 Add following ability to any playable Character to display their spell list. 
@@ -21,6 +24,12 @@ ___________________________
 [@{Selected|repeating_spell-cantrip_$1_spellname}](~spellcard0|$1)
 [@{Selected|repeating_spell-cantrip_$2_spellname}](~spellcard0|$2)
 [@{Selected|repeating_spell-cantrip_$3_spellname}](~spellcard0|$3)
+[@{Selected|repeating_spell-cantrip_$4_spellname}](~spellcard0|$4)
+[@{Selected|repeating_spell-cantrip_$5_spellname}](~spellcard0|$5)
+[@{Selected|repeating_spell-cantrip_$6_spellname}](~spellcard0|$6)
+[@{Selected|repeating_spell-cantrip_$7_spellname}](~spellcard0|$7)
+[@{Selected|repeating_spell-cantrip_$8_spellname}](~spellcard0|$8)
+[@{Selected|repeating_spell-cantrip_$9_spellname}](~spellcard0|$9)
 
 ** 1st Level - @{selected|lvl1_slots_expended}/@{selected|lvl1_slots_total} slots remaining**
 (@{selected|repeating_spell-1_$0_spellprepared}) [@{Selected|repeating_spell-1_$0_spellname}](~spellcard1|$0)
@@ -31,6 +40,8 @@ ___________________________
 (@{selected|repeating_spell-1_$5_spellprepared}) [@{Selected|repeating_spell-1_$5_spellname}](~spellcard1|$5)
 (@{selected|repeating_spell-1_$6_spellprepared}) [@{Selected|repeating_spell-1_$6_spellname}](~spellcard1|$6)
 (@{selected|repeating_spell-1_$7_spellprepared}) [@{Selected|repeating_spell-1_$7_spellname}](~spellcard1|$7)
+(@{selected|repeating_spell-1_$8_spellprepared}) [@{Selected|repeating_spell-1_$8_spellname}](~spellcard1|$8)
+(@{selected|repeating_spell-1_$9_spellprepared}) [@{Selected|repeating_spell-1_$9_spellname}](~spellcard1|$9)
 
 ** 2nd Level - @{selected|lvl2_slots_expended}/@{selected|lvl2_slots_total} slots remaining**
 (@{selected|repeating_spell-2_$0_spellprepared}) [@{Selected|repeating_spell-2_$0_spellname}](~spellcard2|$0)
@@ -41,11 +52,13 @@ ___________________________
 (@{selected|repeating_spell-2_$5_spellprepared}) [@{Selected|repeating_spell-2_$5_spellname}](~spellcard2|$5)
 (@{selected|repeating_spell-2_$6_spellprepared}) [@{Selected|repeating_spell-2_$6_spellname}](~spellcard2|$6)
 (@{selected|repeating_spell-2_$7_spellprepared}) [@{Selected|repeating_spell-2_$7_spellname}](~spellcard2|$7)
+(@{selected|repeating_spell-2_$8_spellprepared}) [@{Selected|repeating_spell-2_$8_spellname}](~spellcard2|$8)
+(@{selected|repeating_spell-2_$9_spellprepared}) [@{Selected|repeating_spell-2_$9_spellname}](~spellcard2|$9)
 }}
 
 ```
 
-## Generic "spellcard" Character
+## "spellcard" Abilities on generic Character sheet
 add abilitites to the spellcard character
 
 **spellcard0**
