@@ -9,4 +9,6 @@ ___________________________
 [@{Selected|repeating_traits_$5_name}](~charactercard0|trait5)
 [@{Selected|repeating_traits_$6_name}](~charactercard0|trait6)
 [@{Selected|repeating_traits_$7_name}](~charactercard0|trait7)
+[@{Selected|repeating_traits_$8_name}](~charactercard0|trait8)
+[@{Selected|repeating_traits_$9_name}](~charactercard0|trait9)
 }}
