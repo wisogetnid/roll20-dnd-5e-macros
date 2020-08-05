@@ -33,10 +33,91 @@ ___________________________
 ## "spellcard" Abilities on generic Character sheet
 add abilitites to the spellcard character
 
+**trait0**
 
+```
+/w "@{selected|character_name}" &{template:npcaction} {{name=@{selected|character_name}}} {{rname=@{selected|repeating_traits_$0_name}}} {{description=@{selected|repeating_traits_$0_description}
+[Traits List](~selected|Traits)
+}}
+
+```
+
+**trait1**
 
 ```
 /w "@{selected|character_name}" &{template:npcaction} {{name=@{selected|character_name}}} {{rname=@{selected|repeating_traits_$1_name}}} {{description=@{selected|repeating_traits_$1_description}
+[Traits List](~selected|Traits)
+}}
+
+```
+
+**trait2**
+
+```
+/w "@{selected|character_name}" &{template:npcaction} {{name=@{selected|character_name}}} {{rname=@{selected|repeating_traits_$2_name}}} {{description=@{selected|repeating_traits_$2_description}
+[Traits List](~selected|Traits)
+}}
+
+```
+
+**trait3**
+
+```
+/w "@{selected|character_name}" &{template:npcaction} {{name=@{selected|character_name}}} {{rname=@{selected|repeating_traits_$3_name}}} {{description=@{selected|repeating_traits_$3_description}
+[Traits List](~selected|Traits)
+}}
+
+```
+
+**trait4**
+
+```
+/w "@{selected|character_name}" &{template:npcaction} {{name=@{selected|character_name}}} {{rname=@{selected|repeating_traits_$4_name}}} {{description=@{selected|repeating_traits_$4_description}
+[Traits List](~selected|Traits)
+}}
+
+```
+
+**trait5**
+
+```
+/w "@{selected|character_name}" &{template:npcaction} {{name=@{selected|character_name}}} {{rname=@{selected|repeating_traits_$5_name}}} {{description=@{selected|repeating_traits_$5_description}
+[Traits List](~selected|Traits)
+}}
+
+```
+
+**trait6**
+
+```
+/w "@{selected|character_name}" &{template:npcaction} {{name=@{selected|character_name}}} {{rname=@{selected|repeating_traits_$6_name}}} {{description=@{selected|repeating_traits_$6_description}
+[Traits List](~selected|Traits)
+}}
+
+```
+
+**trait7**
+
+```
+/w "@{selected|character_name}" &{template:npcaction} {{name=@{selected|character_name}}} {{rname=@{selected|repeating_traits_$7_name}}} {{description=@{selected|repeating_traits_$7_description}
+[Traits List](~selected|Traits)
+}}
+
+```
+
+**trait8**
+
+```
+/w "@{selected|character_name}" &{template:npcaction} {{name=@{selected|character_name}}} {{rname=@{selected|repeating_traits_$8_name}}} {{description=@{selected|repeating_traits_$8_description}
+[Traits List](~selected|Traits)
+}}
+
+```
+
+**trait9**
+
+```
+/w "@{selected|character_name}" &{template:npcaction} {{name=@{selected|character_name}}} {{rname=@{selected|repeating_traits_$9_name}}} {{description=@{selected|repeating_traits_$9_description}
 [Traits List](~selected|Traits)
 }}
 

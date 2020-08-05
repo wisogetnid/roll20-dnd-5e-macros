@@ -2,14 +2,12 @@
 
 CD="$( cd "$( dirname "${BASH_SOURCE[0]}" )" >/dev/null 2>&1 && pwd )"
 
-slot=$1
+slot=${2:-9}
 
-if [ -z "$slot" ]
-  then
-    echo For which slot [0 - 9]
-    read slot
-fi
-
-printf "\n\n\`\`\`\n"
-sed "s/<<slot>>/$slot/g" $CD/traits-slots.txt
-printf "\n\`\`\`\n\n"
+for slot in $(eval echo "{0..$slot}")
+do
+ printf "**trait$slot**"
+ printf "\n\n\`\`\`\n"
+ cat $CD/traits-slots.txt | sed "s/<<slot>>/$slot/g"
+ printf "\n\`\`\`\n\n"
+done
