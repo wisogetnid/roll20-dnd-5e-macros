@@ -13,7 +13,7 @@ fi
 
 for slot in $(eval echo "{0..$slot}")
 do
- printf "**Character \"spellcard$level\", Ability \"\$$slot\"**"
+ printf "**Character \"spellcard$level\", Ability \"spell$slot\"**"
  printf "\n\n\`\`\`\n"
  cat $CD/spellcard-slots.txt | sed "s/<<level>>/$level/g" | sed "s/<<slot>>/$slot/g"
  printf "\n\`\`\`\n\n"
