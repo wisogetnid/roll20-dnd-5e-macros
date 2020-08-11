@@ -17,7 +17,6 @@ for level in $(eval echo "{1..$level}")
 do
  printf "\n"
  cat $CD/spells-ability.txt | sed "s/<<level>>/$level/g"
- printf "\n"
 done
 
 printf "}}"

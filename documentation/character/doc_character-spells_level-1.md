@@ -20,50 +20,48 @@ Add following ability to any playable Character to display their spell list.
 ___________________________
 
 **Cantrips**
-[@{Selected|repeating_spell-cantrip_$0_spellname}](~spellcard0|$0)
-[@{Selected|repeating_spell-cantrip_$1_spellname}](~spellcard0|$1)
-[@{Selected|repeating_spell-cantrip_$2_spellname}](~spellcard0|$2)
-[@{Selected|repeating_spell-cantrip_$3_spellname}](~spellcard0|$3)
-[@{Selected|repeating_spell-cantrip_$4_spellname}](~spellcard0|$4)
-[@{Selected|repeating_spell-cantrip_$5_spellname}](~spellcard0|$5)
-[@{Selected|repeating_spell-cantrip_$6_spellname}](~spellcard0|$6)
-[@{Selected|repeating_spell-cantrip_$7_spellname}](~spellcard0|$7)
-[@{Selected|repeating_spell-cantrip_$8_spellname}](~spellcard0|$8)
-[@{Selected|repeating_spell-cantrip_$9_spellname}](~spellcard0|$9)
+[@{Selected|repeating_spell-cantrip_$0_spellname}](~spellcard0|spell0)
+[@{Selected|repeating_spell-cantrip_$1_spellname}](~spellcard0|spell1)
+[@{Selected|repeating_spell-cantrip_$2_spellname}](~spellcard0|spell2)
+[@{Selected|repeating_spell-cantrip_$3_spellname}](~spellcard0|spell3)
+[@{Selected|repeating_spell-cantrip_$4_spellname}](~spellcard0|spell4)
+[@{Selected|repeating_spell-cantrip_$5_spellname}](~spellcard0|spell5)
+[@{Selected|repeating_spell-cantrip_$6_spellname}](~spellcard0|spell6)
+[@{Selected|repeating_spell-cantrip_$7_spellname}](~spellcard0|spell7)
+[@{Selected|repeating_spell-cantrip_$8_spellname}](~spellcard0|spell8)
+[@{Selected|repeating_spell-cantrip_$9_spellname}](~spellcard0|spell9)
 
 ** Level 1 - @{selected|lvl1_slots_expended}/@{selected|lvl1_slots_total} slots remaining**
-(@{selected|repeating_spell-1_$0_spellprepared}) [@{Selected|repeating_spell-1_$0_spellname}](~spellcard1|$0)
-(@{selected|repeating_spell-1_$1_spellprepared}) [@{Selected|repeating_spell-1_$1_spellname}](~spellcard1|$1)
-(@{selected|repeating_spell-1_$2_spellprepared}) [@{Selected|repeating_spell-1_$2_spellname}](~spellcard1|$2)
-(@{selected|repeating_spell-1_$3_spellprepared}) [@{Selected|repeating_spell-1_$3_spellname}](~spellcard1|$3)
-(@{selected|repeating_spell-1_$4_spellprepared}) [@{Selected|repeating_spell-1_$4_spellname}](~spellcard1|$4)
-(@{selected|repeating_spell-1_$5_spellprepared}) [@{Selected|repeating_spell-1_$5_spellname}](~spellcard1|$5)
-(@{selected|repeating_spell-1_$6_spellprepared}) [@{Selected|repeating_spell-1_$6_spellname}](~spellcard1|$6)
-(@{selected|repeating_spell-1_$7_spellprepared}) [@{Selected|repeating_spell-1_$7_spellname}](~spellcard1|$7)
-(@{selected|repeating_spell-1_$8_spellprepared}) [@{Selected|repeating_spell-1_$8_spellname}](~spellcard1|$8)
-(@{selected|repeating_spell-1_$9_spellprepared}) [@{Selected|repeating_spell-1_$9_spellname}](~spellcard1|$9)
-
+(@{selected|repeating_spell-1_$0_spellprepared}) [@{Selected|repeating_spell-1_$0_spellname}](~spellcard1|spell0)
+(@{selected|repeating_spell-1_$1_spellprepared}) [@{Selected|repeating_spell-1_$1_spellname}](~spellcard1|spell1)
+(@{selected|repeating_spell-1_$2_spellprepared}) [@{Selected|repeating_spell-1_$2_spellname}](~spellcard1|spell2)
+(@{selected|repeating_spell-1_$3_spellprepared}) [@{Selected|repeating_spell-1_$3_spellname}](~spellcard1|spell3)
+(@{selected|repeating_spell-1_$4_spellprepared}) [@{Selected|repeating_spell-1_$4_spellname}](~spellcard1|spell4)
+(@{selected|repeating_spell-1_$5_spellprepared}) [@{Selected|repeating_spell-1_$5_spellname}](~spellcard1|spell5)
+(@{selected|repeating_spell-1_$6_spellprepared}) [@{Selected|repeating_spell-1_$6_spellname}](~spellcard1|spell6)
+(@{selected|repeating_spell-1_$7_spellprepared}) [@{Selected|repeating_spell-1_$7_spellname}](~spellcard1|spell7)
+(@{selected|repeating_spell-1_$8_spellprepared}) [@{Selected|repeating_spell-1_$8_spellname}](~spellcard1|spell8)
+(@{selected|repeating_spell-1_$9_spellprepared}) [@{Selected|repeating_spell-1_$9_spellname}](~spellcard1|spell9)
 
 ** Level 2 - @{selected|lvl2_slots_expended}/@{selected|lvl2_slots_total} slots remaining**
-(@{selected|repeating_spell-2_$0_spellprepared}) [@{Selected|repeating_spell-2_$0_spellname}](~spellcard2|$0)
-(@{selected|repeating_spell-2_$1_spellprepared}) [@{Selected|repeating_spell-2_$1_spellname}](~spellcard2|$1)
-(@{selected|repeating_spell-2_$2_spellprepared}) [@{Selected|repeating_spell-2_$2_spellname}](~spellcard2|$2)
-(@{selected|repeating_spell-2_$3_spellprepared}) [@{Selected|repeating_spell-2_$3_spellname}](~spellcard2|$3)
-(@{selected|repeating_spell-2_$4_spellprepared}) [@{Selected|repeating_spell-2_$4_spellname}](~spellcard2|$4)
-(@{selected|repeating_spell-2_$5_spellprepared}) [@{Selected|repeating_spell-2_$5_spellname}](~spellcard2|$5)
-(@{selected|repeating_spell-2_$6_spellprepared}) [@{Selected|repeating_spell-2_$6_spellname}](~spellcard2|$6)
-(@{selected|repeating_spell-2_$7_spellprepared}) [@{Selected|repeating_spell-2_$7_spellname}](~spellcard2|$7)
-(@{selected|repeating_spell-2_$8_spellprepared}) [@{Selected|repeating_spell-2_$8_spellname}](~spellcard2|$8)
-(@{selected|repeating_spell-2_$9_spellprepared}) [@{Selected|repeating_spell-2_$9_spellname}](~spellcard2|$9)
-
+(@{selected|repeating_spell-2_$0_spellprepared}) [@{Selected|repeating_spell-2_$0_spellname}](~spellcard2|spell0)
+(@{selected|repeating_spell-2_$1_spellprepared}) [@{Selected|repeating_spell-2_$1_spellname}](~spellcard2|spell1)
+(@{selected|repeating_spell-2_$2_spellprepared}) [@{Selected|repeating_spell-2_$2_spellname}](~spellcard2|spell2)
+(@{selected|repeating_spell-2_$3_spellprepared}) [@{Selected|repeating_spell-2_$3_spellname}](~spellcard2|spell3)
+(@{selected|repeating_spell-2_$4_spellprepared}) [@{Selected|repeating_spell-2_$4_spellname}](~spellcard2|spell4)
+(@{selected|repeating_spell-2_$5_spellprepared}) [@{Selected|repeating_spell-2_$5_spellname}](~spellcard2|spell5)
+(@{selected|repeating_spell-2_$6_spellprepared}) [@{Selected|repeating_spell-2_$6_spellname}](~spellcard2|spell6)
+(@{selected|repeating_spell-2_$7_spellprepared}) [@{Selected|repeating_spell-2_$7_spellname}](~spellcard2|spell7)
+(@{selected|repeating_spell-2_$8_spellprepared}) [@{Selected|repeating_spell-2_$8_spellname}](~spellcard2|spell8)
+(@{selected|repeating_spell-2_$9_spellprepared}) [@{Selected|repeating_spell-2_$9_spellname}](~spellcard2|spell9)
 }}
 ```
 
-## Generic "spellcard" Characters and "$" Abilities
-Create a new, generic Character for every different "spellcard". These are placeholders to display the individual spells.  
-On every of those "spellcard" Characters, add 10 (or more) Abilities "$0", "$1"...until "$9", depending on the maximum of known spells of a certain level. 
+## Generic "spellcard" Characters and "spell" Abilities
+Create a new, generic "spellcard" Character for every spell level casters have spells. These are placeholders to display the individual spells.  
+On every of those "spellcard" Characters, add 10 (or more) Abilities "spell0", "spell1"...until "spell9", depending on the maximum of known spells of a certain level. 
 ### Example
-As an example, Character "spellcard1", Ability "$0" will display the first spell ($0 Ability) of the 1st level (spellcard1 Character) spells of the selected token/character.
+As an example, Character "spellcard1", Ability "spell0" will display the first spell (spell0 Ability) of the 1st level (spellcard1 Character) spells of the selected token/character.
 **Character "spellcard2", Ability "$0"**
 
 ```
