@@ -10,10 +10,11 @@ This script is heavily based on the work of [Ed S.](https://app.roll20.net/users
 ## "Spells" Ability on playable Character sheet
 
 ### Adjustments
-You want to manually remove lines of spells to reflect the number of spells your character knows. Say your character knows 4 cantrips, remove 6 cantrip lines starting from the bottom up - from the line ending on `(~spellcard0|$9)` to and including the line ending on `(~spellcard0|$4)`.
+You want to manually remove lines of spells to reflect the number of spells your character knows. Say your character knows 4 cantrips, remove 6 cantrip lines starting from the bottom up - from the line ending on `(~spellcard0|spell9)` to and including the line ending on `(~spellcard0|spell4)`.
 
 ### Macro
 Add following ability to any playable Character to display their spell list. 
+
 
 ```
 /w "@{selected|character_name}" &{template:atk} {{desc=***@{selected|character_name} Spells***
@@ -62,6 +63,7 @@ Create a new, generic "spellcard" Character for every spell level casters have s
 On every of those "spellcard" Characters, add 10 (or more) Abilities "spell0", "spell1"...until "spell9", depending on the maximum of known spells of a certain level. 
 ### Example
 As an example, Character "spellcard1", Ability "spell0" will display the first spell (spell0 Ability) of the 1st level (spellcard1 Character) spells of the selected token/character.
+
 **Character "spellcard2", Ability "$0"**
 
 ```
