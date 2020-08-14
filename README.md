@@ -12,7 +12,9 @@ A lot of the macro logic is based on work of other people, mostly found in the [
 ## Character Macros
 ### Character Spells list
 A set of macros to display a magic wielding character's list of spells.  
-The [/documentation/character](https://github.com/wisogetnid/roll20-dnd-5e-macros/tree/master/documentation/character) folder contains documentation for the macros to display spells, from level 1 to 9.
+The [/documentation/character](https://github.com/wisogetnid/roll20-dnd-5e-macros/tree/master/documentation/character) folder contains documentation for the macros to display a character's spell list. Depending on the maximum level of known spells, there are more or less macros to add. The documentation starts with `doc_character-spells_` followed by the maximum spell level. For a character knowing up to 2nd level spells, have a look at the [doc_character-spells_level-2.md](https://github.com/wisogetnid/roll20-dnd-5e-macros/tree/master/documentation/character/doc_character-spells_level-2.md)
 
 ### Character Traits & Features list
 A set of macros to display a character's list of traits and features.  
+The [/documentation/character](https://github.com/wisogetnid/roll20-dnd-5e-macros/tree/master/documentation/character) folder contains documentation for the macros to display a character's traits and features. The documentation is called [doc_character-traits.md](https://github.com/wisogetnid/roll20-dnd-5e-macros/tree/master/documentation/character/doc_character-traits.md).
+
