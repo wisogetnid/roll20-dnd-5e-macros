@@ -9,16 +9,10 @@ It's also my personal playground for bash scripting and github actions, hence...
 ## Shout out to the Roll20 Community
 A lot of the macro logic is based on work of other people, mostly found in the [Roll20 community](https://app.roll20.net/forum/). I intend to give credit to the various people for their work...but I might miss some. Please accept my excuse, should you be amongst them. =o)
 
-## How to use the scripts
-Interaction with `generate_*` scripts in the root folder should be enough to create macros which can then be copy & pasted into Roll20 ability text boxes.
+## Character Macros
+### Character Spells list
+A set of macros to display a magic wielding character's list of spells.  
+The [/documentation/character](https://github.com/wisogetnid/roll20-dnd-5e-macros/tree/master/documentation/character) folder contains documentation for the macros to display spells, from level 1 to 9.
 
-### Character Spell List
-Based on the work of [Ed S.](https://app.roll20.net/users/772714), described in [this forum post](https://app.roll20.net/forum/permalink/5629364/). Read through their post to understand the basic setup if you intend to use the scripts below.
-
-#### Character Spells Ability
-Navigate to the root folder and execute `./generate_character-spells-ability.sh` in your shell of choice.  
-**Params:** There are currently no parameters to this command
-
-#### Spellcard Slots
-Navigate to the root folder and execute `./generate_spellcard-slots.sh` in your shell of choice.  
-**Params:** Option to add _spell level [cantrip, 1-9]_ and _slot number [0-99]_ as arguments to the command for direct macro generation. `./generate_spellcard-slots.sh cantrip 2` prints the spellcard macro for the cantrip spellcard (which would be spellcard0), ability slot $2.
+### Character Traits & Features list
+A set of macros to display a character's list of traits and features.  
