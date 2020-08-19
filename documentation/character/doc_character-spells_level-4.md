@@ -19,9 +19,11 @@ Create a new "Spells" ability to any playable Character to display their spell l
 
 
 ```
-/w "@{selected|character_name}" &{template:atk} {{desc=***@{selected|character_name} Spells***
-___________________________
-
+/w "@{selected|character_name}" &{template:atk} {{desc=***@{selected|character_name} - @{selected|class}***
+Caster Level: [[@{selected|caster_level}]]
+Spell Save DC: [[@{selected|spell_save_dc}]]
+Spellcasting Ability Mod: [[@{selected|spellcasting_ability}@{selected|pb}]]
+-----------------------------------
 **Cantrips**
 [@{Selected|repeating_spell-cantrip_$0_spellname}](~spellcardcantrip|spell0)
 [@{Selected|repeating_spell-cantrip_$1_spellname}](~spellcardcantrip|spell1)
