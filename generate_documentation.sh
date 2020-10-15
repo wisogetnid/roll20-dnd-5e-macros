@@ -1,6 +1,7 @@
 #!/bin/bash
 
 ./src/character/generate_documentation.sh
+./src/monster-template/generate_documentation.sh
 
 for level in {1..9}
 do

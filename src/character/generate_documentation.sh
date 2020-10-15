@@ -12,6 +12,6 @@ $CD/generate_character-traits-ability.sh >> $OUTPUT_FILE_CHARACTER_TRAITS_PREFIX
 cat $CD/charactercard-traits-slots-explanation.md >> $OUTPUT_FILE_CHARACTER_TRAITS_PREFIX
 $CD/generate_charactercard-traits-slots.sh >> $OUTPUT_FILE_CHARACTER_TRAITS_PREFIX
 
-echo "move generated file to $OUTPUT_PATH_CHARACTER_TRAITS"
 mkdir -p $OUTPUT_FOLDER_CHARACTER
 mv $OUTPUT_FILE_CHARACTER_TRAITS_PREFIX $OUTPUT_PATH_CHARACTER_TRAITS
+echo "moved generated file to $OUTPUT_PATH_CHARACTER_TRAITS"
