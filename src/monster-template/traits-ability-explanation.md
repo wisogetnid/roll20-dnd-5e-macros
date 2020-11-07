@@ -16,7 +16,7 @@ Add following Abilities to a new Character sheet - best named Monster template
 %{selected|repeating_npcaction_$1_npc_action}
 %{selected|repeating_npcaction_$2_npc_action}
 ```
-When on a concrete monster, add, remove or change the attacks this monster would execute as its Multiattack
+When on a specific monster, add, remove or change the attacks this monster would execute as its Multiattack
 
 ### Action:1
 ```
@@ -27,7 +27,7 @@ When on a concrete monster, add, remove or change the attacks this monster would
 ```
 %{selected|repeating_npcaction_$1_npc_action}
 ```
-When on a concrete monster, add or remove attacks according to the monster's attack abilities
+When on a specific monster, add or remove attacks according to the monster's attack abilities
 
 ### Trait:1
 ```
@@ -38,7 +38,7 @@ When on a concrete monster, add or remove attacks according to the monster's att
 ```
 /w gm &{template:npcaction} {{name=@{selected|npc_name}}} {{rname=@{selected|repeating_npctrait_$1_name}}} {{description=@{selected|repeating_npctrait_$1_description}}}
 ```
-When on a concrete monster, add or remove traits according to the monster's trait abilities
+When on a specific monster, add or remove traits according to the monster's trait abilities
 
 ### Reaction
 ```
@@ -47,7 +47,7 @@ When on a concrete monster, add or remove traits according to the monster's trai
 
 ### Initiative
 ```
-%{selected|npc_init}
+/w gm %{selected|npc_init}
 ```
 
 ### Saves
@@ -62,7 +62,7 @@ When on a concrete monster, add or remove traits according to the monster's trai
 
 ### Perception
 ```
-%{Selected|npc_perception}
+/w gm %{Selected|npc_perception}
 ```
 
 ### Stats
