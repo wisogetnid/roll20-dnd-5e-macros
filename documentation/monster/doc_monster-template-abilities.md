@@ -42,7 +42,7 @@ When on a specific monster, add or remove traits according to the monster's trai
 
 ### Reaction
 ```
-/w gm &{template:npcaction} {{name=@{selected|npc_name}}} {{rname=@{selected|repeating_npcreaction_$0_name}}} {{description=@{selected|repeating_npcreaction_$0_desc} }}
+/w gm &{template:npcaction} {{name=@{selected|npc_name}}} {{rname=@{selected|repeating_npcreaction_$0_name}}} {{description=@{selected|repeating_npcreaction_$0_description} }}
 ```
 
 ### Initiative
